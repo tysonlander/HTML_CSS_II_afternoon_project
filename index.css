@@ -1,1 +1,94 @@
-.
+body {
+  margin: 0;
+  border: solid #E1E7FA 1.2rem;
+  height: 5000px;
+  padding: 0;
+}
+
+.navBar {
+  height: 10vh;
+  width: 100%;
+  margin: 0;
+  display: flex;
+}
+
+.leftNav {
+  width: 10vw;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+nav section h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+nav section h2 {
+  font-size: 1em;
+  margin: 0;
+
+}
+
+.centerNav {
+  text-transform: uppercase;
+  margin: 0;
+  /* width: 50vw; */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+nav ul li {
+  margin: 0 1em;
+  font-size: .8em;
+  list-style: none;
+}
+
+#rightNav {
+  /* width: 15%; */
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: stretch;
+  margin: 1rem;
+}
+
+.invisionIcon {
+  font-size: 2.5rem;
+  margin-left: 1rem;
+  margin-right: .5rem;
+}
+
+
+.socialcons {
+  position: absolute;
+  bottom: 0;
+  right: 5rem;
+  color: #0828CC;
+  /* use sticky and then say how far from the top of the screen */
+}
+
+.button {
+  background: #0828CC;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 0.8rem;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.firstRow {
+  background: #E1E7FA;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  height: 70vh;
+}
