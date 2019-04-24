@@ -67,12 +67,15 @@ nav ul li {
 }
 
 
-.socialcons {
+.icon-container-one {
   position: absolute;
   bottom: 0;
   right: 5rem;
   color: #0828CC;
-  /* use sticky and then say how far from the top of the screen */
+  position: fixed;
+  bottom: 2rem;
+  margin-right: 0.1rem;
+  display: flex;
 }
 
 .button {
@@ -86,9 +89,91 @@ nav ul li {
   text-transform: uppercase;
 }
 
+.button-two {
+  background: #F80051;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 0.7rem;
+  padding: 20px 40px 20px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .firstRow {
   background: #E1E7FA;
   margin-top: 5rem;
   margin-left: 5rem;
   height: 70vh;
+  display: flex;
+}
+
+.cta-one {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+  align-content: stretch;
+  margin-left: 7rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.icon-container-two {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-content: stretch;
+}
+
+.socialicontwo {
+  font-size: 2.5rem;
+  margin-top: .5rem;
+}
+
+.second-row-boxone {
+  /* margin-top: 5rem; */
+  height: 60vh;
+  display: flex;
+}
+
+/* .second-row-backgroundbox {
+  background: #FBFBFB;
+  /* height: 60vh;  */
+  /* this height could be the problem */
+  /* display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+	align-content: stretch;
+} */ 
+
+.second-row-smallcolorbox {
+  background: #F80051;
+  height: 10rem;
+  width: 10rem;
+  margin-top: 16rem;
+  margin-left: 8rem;
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.cta-two {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+  align-content: stretch;
+  margin-left: 15rem;
 }
